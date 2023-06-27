@@ -1,0 +1,51 @@
+main {
+    height: 300px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.548);
+    border: 2px solid blue;
+    border-radius: 20px;
+    }
+
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(img/montagne.jpg)  no-repeat center /cover;
+        min-height: 50vh;
+        border: 3px solid blue;
+    }
+
+    .box {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: aquamarine;
+    }
+
+    #city {
+        background-color: rgba(247, 0, 255, 0.459);
+    }
+    #temp {
+        background-color: rgba(111, 0, 255, 0.459);
+    }
+    #humidity {
+        background-color: rgba(25, 0, 255, 0.459)
+    }
+    #wind {
+        background-color: rgba(0, 68, 255, 0.459)
+    }
+
+    .container {
+        display: flex;
+    }
+      
+    .box {
+        flex: 1;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    h2 {color : rgb(222, 234, 219)}
